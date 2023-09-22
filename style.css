@@ -668,7 +668,7 @@ footer {
         background-color: #1D1E20;
         display: grid;
         place-items: center;
-        clip-path: circle(0% at top left);
+        visibility: hidden;
         transition: clip-path .4s;
     }
 
@@ -683,6 +683,7 @@ footer {
     .menu:target {
         clip-path: circle(150% at top left);
     }
+    
    
 
     /*-------Seccion DESCRIPCION-------*/
