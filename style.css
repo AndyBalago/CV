@@ -7,21 +7,20 @@
 }
 html{
     scroll-behavior: smooth;
-    
 }
 
 body {
     background-color: aliceblue;
-    
 }
 main {
     padding-top: 60px;
-    
-
+}
+.anchor{
+    height: 30px;
 }
 
 .label_seccion {
-    margin:10% 10% 3% 10%;
+    margin:5% 10% 3% 10%;
     text-align: left;
     color: #1D1E20;
     border-bottom: 3px solid #5890FF;
@@ -90,10 +89,12 @@ li a:hover {
     font-size: 30px;
     color: #5890FF;
     float: right;
-    line-height: 80px;
+    line-height: 60px;
     margin-right: 30px;
     cursor: pointer;
     display: none;
+    
+    
 }
 
 /*-------Seccion DESCRIPCION-------*/
@@ -657,12 +658,12 @@ footer {
     .nav_target {
         display: block;
     }
-
+    
     .menu {
         position: fixed;
         left: 0;
         bottom: 0;
-        top: 80px;
+        top: 60px;
         right: 0;
         background-color: #1D1E20;
         display: grid;
@@ -679,10 +680,10 @@ footer {
     .menu li a {
         font-size: 20px;
     }
-
     .menu:target {
         clip-path: circle(150% at top left);
     }
+   
 
     /*-------Seccion DESCRIPCION-------*/
     .cont_descrip {
@@ -690,6 +691,7 @@ footer {
         margin: 0;
         padding: 0;
         width: 100%;
+        padding-top: 2%;
     }
 
     .descr_box {
